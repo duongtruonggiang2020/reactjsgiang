@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* #header {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#logo {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 50%;
+    font-size: 30px;
+
+}
+#menu {
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 50%;
+}
+@media (max-width: 800px) {
+    .logo, .menu {
+      flex: 100%;
+    }
+} */
+.header{
+    width: 100%;
+    background-color: #f1f1f1;
+    float: left;
+    background-image: linear-gradient(rgb(56, 117, 197), white);
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.col-6{
+    width: 48%;
+    margin: 0 1%;
+    float: left;
+}

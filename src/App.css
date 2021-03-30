@@ -1,0 +1,67 @@
+
+* {
+  box-sizing: border-box;
+}
+/* .header{
+  height: 127px;
+  background: #211377;
+  box-shadow: 0px 10px 4px rgba(255, 255, 255, 0.25);
+  font-size: 48px;
+  color: white;
+  align-content : center;
+} */
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px 20px;
+  margin-top: 21px;
+  height: 80%;
+}
+
+.status{
+  flex: 100%;
+  padding: 10px;
+  height: min-content;
+  background: #211377;
+  border-radius: 8px;
+  width: 500px;
+}
+.chart1{
+  background-color: #f1f1f1;
+  /* padding: 10px; */
+  flex: 40%;
+  /* height: 324px; */
+}
+
+.chart2 {
+  background-color: rgb(144, 230, 172);
+  /* padding: 10px; */
+  flex: 40%;
+  /* height: 324px; */
+}
+.news{
+  flex: 100%;
+  padding: 10px;
+  height: 113px;
+  background: #211377;
+  border: 3px solid #262CC4;
+  color: chartreuse;
+  height: fit-content;
+}
+
+.content > div{
+  text-align: center;
+  /* padding: 10px 0; */
+  border-radius: 8px;
+  border: 3px solid #211377;
+  margin: 10px;
+}
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .chart1, .chart2 {
+    flex: 100%;
+    margin: 0 20px;
+  }
+}

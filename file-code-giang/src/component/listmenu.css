@@ -1,0 +1,25 @@
+ul{
+    padding: 0;
+    margin: 0;
+}
+ul li{
+   list-style-type: none;
+  
+}
+ul.menu li {
+    display: inline-block;
+}
+ul.menu li a {
+    display: block;
+    padding: 0px 25px;
+    color: white;
+    font-weight: bold;
+}
+ul.menu > li.home{
+    position: relative;
+}
+ul.menu > li.home svg.MuiSvgIcon-root{
+    position: absolute;
+    left: -2px;
+    top: -11px
+}
